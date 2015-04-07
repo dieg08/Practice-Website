@@ -1,0 +1,131 @@
+body {background-image: url(pictures/woodback.jpg);}                                                  
+
+#nav {                  
+    background-color: #20B2AA;
+    position: fixed;    
+    top: 0;
+    left: 0;
+    right:0;
+    z-index: 9999;
+}                                                                               
+#nav ul {                                                                       
+    list-style: none;                                                           
+    list-style-type: none;                                                      
+    margin: 0;                                                                  
+    padding: 0;                                                                 
+}                                                                               
+                                                                                
+#nav li {                                                                       
+    float: left;                                                                
+}                                                                               
+                                                                                
+#nav a:link, #nav a:visited {                                                   
+    display: block;                                                             
+    width: 120px;                                                               
+    font-weight: bold;                                                          
+    color: #FFFFFF;                                                             
+    background-color: #20B2AA;                                                  
+    text-align: center;                                                         
+    padding: 4px;                                                               
+    text-decoration: none;                                                      
+    text-transform: uppercase;                                                  
+}                                                                               
+
+#nav a:hover, #nav a:active {                                                   
+
+    background-color: #105955;                                                  
+}
+
+#resume {
+    padding-top: 40px;
+    text-align: center;
+}
+
+dt {
+    opacity: 1;
+    background-image: url(pictures/wood.jpg);                                            
+    background-size: contain;
+    border: 2px solid #471300;
+    padding:20px;
+    border-radius: 25px;
+    width: 100px;
+}
+
+dd {
+    opacity: 0;
+    background-image: url(pictures/wood.jpg);                                            
+    background-size: contain;
+    text-align:center;
+    position: absolute;
+    border: 2px solid #471300;
+    padding:20px;
+    border-radius: 25px;
+    top: 120px;
+    left: 300px;
+}
+
+dt:hover + dd, dt:focus + dd { 
+    opacity: 1; 
+}
+
+#title {
+    border: 2px solid #471300;
+    border-radius: 25px;
+    top: 120px;
+    background-image: url(pictures/wood.jpg);                                            
+    background-size: contain;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px;
+    color: #170600;
+    text-shadow: -6px -6px -8px #000000;
+    width: 200px;
+}
+
+#gallery {
+    padding-left: 50px;
+    position: relative;
+}
+
+.letter {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin: 26px auto 0;
+    max-width: 550px;
+    min-height: 300px;
+    padding: 24px;
+    position: relative;
+    width: 80%;
+}
+
+.letter:before, .letter:after {
+    content: "";
+    height: 98%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.letter:before {
+    background: #fafafa;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    left: -5px;
+    top: 4px;
+    transform: rotate(-2.5deg);
+}
+
+.letter:after {
+    background: #f6f6f6;
+    box-shadow: 0 0 3px rgba(0,0,0,0.2);
+    right: -3px;
+    top: 1px;
+    transform: rotate(1.4deg);
+}
+
+#pic {
+    padding-top: 30px;
+    text-align: center;
+}
+                                                             

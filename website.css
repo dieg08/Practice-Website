@@ -1,0 +1,83 @@
+body {background-image: url(pictures/selectScreen.jpg);}                                                  
+
+#nav {                  
+    background-color: #20B2AA;
+    position: fixed;    
+    top: 0;
+    left: 0;
+    right:0;
+    z-index: 9999;
+}                                                                               
+#nav ul {                                                                       
+    list-style: none;                                                           
+    list-style-type: none;                                                      
+    margin: 0;                                                                  
+    padding: 0;                                                                 
+}                                                                               
+                                                                                
+#nav li {                                                                       
+    float: left;                                                                
+}                                                                               
+                                                                                
+#nav a:link, #nav a:visited {                                                   
+    display: block;                                                             
+    width: 120px;                                                               
+    font-weight: bold;                                                          
+    color: #FFFFFF;                                                             
+    background-color: #20B2AA;                                                  
+    text-align: center;                                                         
+    padding: 4px;                                                               
+    text-decoration: none;                                                      
+    text-transform: uppercase;                                                  
+}                                                                               
+
+#nav a:hover, #nav a:active {                                                   
+
+    background-color: #105955;                                                  
+}
+
+#resume {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.letter {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin: 26px auto 0;
+    max-width: 550px;
+    min-height: 300px;
+    padding: 24px;
+    position: relative;
+    width: 80%;
+}
+
+.letter:before, .letter:after {
+    content: "";
+    height: 98%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.letter:before {
+    background: #fafafa;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    left: -5px;
+    top: 4px;
+    transform: rotate(-2.5deg);
+}
+
+.letter:after {
+    background: #f6f6f6;
+    box-shadow: 0 0 3px rgba(0,0,0,0.2);
+    right: -3px;
+    top: 1px;
+    transform: rotate(1.4deg);
+}
+
+#pic {
+    padding-top: 30px;
+    text-align: center;
+}
+                                                             
